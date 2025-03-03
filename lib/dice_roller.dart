@@ -52,21 +52,21 @@ class _DiceRollerState extends State<DiceRoller> {
               10,
             ),
           ),
-
+          //this container for adding shadow to the button
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(
-                10,
+                7,
               ),
               boxShadow: [
                 BoxShadow(
                   color: const Color.fromARGB(
                     255,
-                    72,
-                    1,
-                    74,
+                    98,
+                    3,
+                    41,
                   ),
-                  offset: const Offset(5.0, 7.0),
+                  offset: const Offset(3.0, 5.0),
                   blurRadius: 5.0,
                   spreadRadius: 2.0,
                 ), //BoxShadow
@@ -85,9 +85,9 @@ class _DiceRollerState extends State<DiceRoller> {
                 backgroundColor:
                     const Color.fromARGB(
                       255,
-                      6,
-                      0,
-                      4,
+                      83,
+                      1,
+                      1,
                     ),
 
                 textStyle: const TextStyle(

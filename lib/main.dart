@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'gradient_container.dart';
 
+//author:shupto rahman
+//final retouch 3/3/25
 void main() {
   runApp(
     const MaterialApp(
