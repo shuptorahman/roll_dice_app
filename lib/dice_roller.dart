@@ -24,9 +24,26 @@ class _DiceRollerState extends State<DiceRoller> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Image.asset(
-          'assets/images/dice-$currentdiceroll.png',
-          width: 200,
+        Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: const Color.fromARGB(
+                  255,
+                  37,
+                  2,
+                  2,
+                ),
+                offset: const Offset(5.0, 10.0),
+                blurRadius: 10.0,
+                spreadRadius: 2.0,
+              ), //BoxShadow
+            ],
+          ),
+          child: Image.asset(
+            'assets/images/dice-$currentdiceroll.png',
+            width: 200,
+          ),
         ),
         SizedBox(height: 30),
         TextButton(
